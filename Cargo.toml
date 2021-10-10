@@ -2,6 +2,8 @@
 name = "atmosphere"
 version = "0.1.0"
 edition = "2018"
+license = "Apache-2.0"
+authors = ["Ken Swenson <flat@esoteric.moe>"]
 
 [dependencies]
 bme680 = "0.6.0"
