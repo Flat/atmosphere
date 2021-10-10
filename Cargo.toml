@@ -1,0 +1,16 @@
+[package]
+name = "atmosphere"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bme680 = "0.6.0"
+i2cdev = "0.5.0"
+tokio = {version = "1", features = ["full"]}
+#modified to use rustls-tls for reqwest
+influxdb2_client = {path = "../influxdb_iox/influxdb2_client"}
+dotenv = "0.15.0"
+linux-embedded-hal = "0.3"
+futures = { version = "0.3", default-features = false }
+tracing = "0.1.29"
+tracing-subscriber = "0.2.25"
